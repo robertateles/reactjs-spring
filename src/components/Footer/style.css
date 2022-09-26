@@ -1,0 +1,44 @@
+.rodape{
+    margin-top: 300px;
+    background: var(--bg-color-1);
+}
+
+.rodape .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.rodape .container .box h4{
+    font-size: 2rem;
+    color: var(--purple);
+    padding: 1rem 0;
+}
+
+.rodape .container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--purple);
+}
+
+.rodape .container .box a i{
+    padding-right: .5rem;
+    color: var(--purple);
+
+}
+
+.rodape .container .box a:hover{
+    padding-left: 1rem;
+    color: #666;
+}
+
+.rodape .copyright{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+    border-top: .1rem solid var(--purple);
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    color: var(--purple);
+}
