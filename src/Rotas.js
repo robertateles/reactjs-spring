@@ -26,6 +26,7 @@ export default function Rotas() {
             <Route path='/edit/:id' element={<Edit/>}/>
             <Route path='/view/:id' element={<View/>}/>  
         </Routes>
+        <Home/>
         <Footer/>
     </Router>
   )
