@@ -49,7 +49,6 @@ export default function Tabela() {
     <tr>
       <th scope="col">#</th>
       <th scope="col">Nome</th>
-      <th scope="col">Idade</th>
       <th scope="col">Email</th>
       <th scope="col">-</th>
     </tr>
@@ -59,7 +58,6 @@ export default function Tabela() {
       <tr>
         <th scope="row" key={key}>{key +1}</th>
         <td>{usuario.nome}</td>
-        <td>{usuario.idade}</td>
         <td>{usuario.email}</td>
         <td>
           <Link to={`/view/${usuario.id}`} className="btn btn-outline-success mx-2">
