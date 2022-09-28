@@ -25,7 +25,7 @@ function Navbar() {
             <a className="logo"><i className="fas fa-paper-plane"> <Link to={"/home"}>TravelAirlines</Link></i></a>
 
             <nav className="navbar">
-                <a> <Link to={"/home"}>Home</Link></a>
+                <a> <Link to={"/"}>Home</Link></a>
                 <a><Link to={"/destino"}>Destino</Link></a>
                 <a><Link to={"promocao"}>Promoções</Link></a>
                 <a><Link to={"/contato"}>Contato</Link></a>
