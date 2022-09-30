@@ -81,7 +81,7 @@ public class UsuarioServiceImpl implements UsuarioService {
 	@Transactional
 	public Usuario atualizar(Usuario usuario, long id) {
 		Usuario usuarioExistente = repositorio.findById(id).orElseThrow(
-				() -> new ResourceNotFoundException("Funcionario", "id", id));
+				() -> new ResourceNotFoundException("Usuario", "id", id));
 		
 		usuarioExistente.setNome(usuario.getNome());
 		usuarioExistente.setEmail(usuario.getEmail());
